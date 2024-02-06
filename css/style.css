@@ -1,0 +1,156 @@
+/*General Formatting*/
+
+body{
+    background-color: #212121;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+}
+
+p{
+    color: whitesmoke;
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 18px !important;
+}
+
+h2{
+    color: #B9DFDF !important;
+}
+
+.display-4{
+    color: whitesmoke;
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 32px;
+    font-weight: 500 !important;
+}
+
+.display-6{
+    color: whitesmoke;
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 32px;
+    font-weight: 500 !important;
+}
+
+h2{
+    color: whitesmoke;
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 32px;
+    font-weight: 500 !important;
+}
+
+.display-8{
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 28px;
+    font-weight: 400 !important;
+    color: whitesmoke;
+}
+
+.btn-primary{
+    background-color: #B9DFDF !important;
+    outline-color: #B9DFDF !important;
+    color: black;
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: 400;
+}
+
+.btn-primary:hover{
+    color: black;
+    background-color: #FAC8CD !important;
+    font-weight: 700;
+    
+}
+
+.caseImg{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.quote{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #CDBBF2;
+      
+}
+
+.left{
+    justify-content: right;
+}
+
+.right{
+    justify-content: left;
+}
+
+/*Navigation*/
+.navbar{
+    background-color: #212121 !important;
+    /*background-color: white;*/
+}
+
+.navbar-toggler{
+    color: whitesmoke !important;
+    background-color: #B9DFDF !important;
+    justify-content: space-between;
+
+}
+
+.topNavLink{
+    color: #B9DFDF !important;
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 24px;
+    justify-content: end;
+}
+
+.nav-link{
+    color: #FAC8CD;
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: #FAC8CD;
+}
+
+.navbar-brand{
+    color: whitesmoke;
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav{
+    text-align: right;
+    justify-content: end;
+}
+
+.navbar-collapse{
+    justify-content: end;
+}
+
+/*Links*/
+.prototypeLink{
+    color: #FAC8CD;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.prototypeLink:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.hypLink{
+    color:#FAC8CD;
+    font-size: 20px !important;
+}
+
+.hypLink:hover{
+    font-weight: 400 !important;
+    font-size: 22px !important;
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UX/UI Homework 20</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="topNav">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/Long Dark Symbol.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+                  <div class="row justify-content-end">
+                    <div class="col">
+                      <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link topNavLink active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="topNavLink nav-link " href="#">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="topNavLink nav-link" href="#">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="topNavLink nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    </div>
+                  </div>
+                    
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="caseStudyNav">
+      <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand" href="#">National Park Service Redesign</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#Overview">Project Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Research">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Ideation">Ideation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Prototyping">Prototyping</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#UsabilityTestingFindings">Usability Testing & Findings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#InteractivePrototype">Interactive Prototype</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#FullCaseStudy">Full Case Study</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <section id="heroDescription">
+      <div class="container p-5">
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-sm-12">
+            <h1 class="display-4 text-center">National Park Service Redesign</h1>
+          <p class="mx-5">The National Park Service is an agency of the United States Government under the Department of the Interior that oversees over 400 national parks, national monuments, and natural, historical and recreational properties within the United States. Its website aims to educate users about the National Park Service and help them discover America's natural landscapes.<br><br>
+The current user experience of the National Park Service is confusing and outdated, and it’s navigation is difficult to understand. The UX team redesigned the website to focus on a more stylized and clean UI and a cohesive navigation. 
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <img src="../UX_UI_HW_20/images/NPS Hero.png" alt="Desktop and Mobile wireframe of the National Park Service Redesign with a blue and pink circle behind each one">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Overview">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <h2 class="text-center my-4">Project Overview</h1>
+          <p class="my-2">In this research project, the UX Team conducted a Heuristic Evaluation of the existing National Park Service website and completed 6 usability tests to capture users’ pain points on the NPS site. <br>
+          <br>Based on user findings, the team prioritized simplifying the content on the homepage and updating the top navigation for a more intuitive experience. The team created a RWD prototype and had 3 rounds of iterations based on usability tests.  
+          </p>
+          
+
+    </section>
+
+    <section id="Research">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <h2 class="text-center my-4">Research</h1>
+          <h3 class="display-8 my-3">Heuristic Evaluation</h3>
+          <p class="my-2">To get a gauge on the current usability of the National Park Service Site, the UX team conducted it’s own <a class= "hypLink" href="https://www.figma.com/file/gxG88pq1B9fBbVbd7D21YY/National-Park-Service-Annotations?type=design&node-id=167%3A250&mode=design&t=tKbPA344pL0jRKqE-1">Heuristic Evaluation</a> , going through its navigation and internal park sites to evaluate the cohesiveness of its branding and aesthetics, the intuitiveness of its navigation– including the search bar, and the simplicity of its content.<br><br>
+          The team found that the site had little brand consistency, with no clear color scheme and a near unusable search bar, with no way to filter or sort when searching for something, such when looking for information about a National Park.          
+          </p>
+          <div class="row text-center">
+            <div class="col-md-12 col-sm-12">
+              <img class= "caseImg" src="../UX_UI_HW_20/images/Heuristic Evaluation.png" style="width: 600px;" alt="Screenshot of the existing National Park Service website with markers where the UX and UI can be improved with descriptions">
+            </div>
+          
+        </div>
+          <h3 class="display-8 my-3">Interviews</h3>
+          <p>Based on user findings, the team uncovered that users struggled with navigating the site, as the search feature had no way of sorting or filtering system, and many links under the header navigation was misleading or had multiple ways to find the same information but the page itself was laid out differently. With this discovery, the team came up with the problem statement to build towards.
+          </p>
+          <h4 class="text-center quote my-5">"How might we simplify the navigation of the site and strengthen brand recognition so that users can confidently find parks to visit and activities to explore?"</h2>
+          <p class="my-2">The UX Team then conducted <a class="hypLink" href="https://docs.google.com/document/d/1xPcHAglV_v58jKupiAXStfndt2s9TGqwlA5t0Ehyn98/edit">usability tests</a> with <a class="hypLink" href="https://drive.google.com/drive/folders/1Gp4jC2DX0rpaP2jHn6npLMUcmz8WYlEE">6 participants</a>, who were instructed to find information on the NPS website using the search bar, top navigation, and home navigation.<br><br>
+            Based on user findings, the team  created a 2x2 matrix that took user wants and pain points and prioritized the top 2 features: simplifying the content on the homepage and giving users an easier way to search by park and activity.
+          </p>
+          <div class="row text-center">
+            <div class="col-md-12 col-sm-12">
+              <img class="caseImg" src="../UX_UI_HW_20/images/2x2 Matrix.png" style= "height:500px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="Ideation">
+      <div class="row"> 
+        <div class="col-md-12 col-sm-12">
+          <h2 class="display-6 text-center my-4">Ideation</h1>
+          <h3 class="display-8 my-3">Card Sorting</h3>
+          <p class="my-2">The current layout (left) of the National Park’s top navigation is disjointed and both users and the UX team found that many of the pages did not intuitively fit into each category it was under. The team conducted a card sort of the top navigation, adding new categories to better point users to where they wanted to go (right).
+              
+            </p>
+            <div class="row text-center gx-0">
+              <div class="col-md-6 col-sm-12">
+                <img class="caseImg my-2" src="../UX_UI_HW_20/images/Card Sorting Existing Homepage.png" alt="Card sort of the existing National Parks Service website">
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <img class="caseImg my-2" src="../UX_UI_HW_20/images/Card Sorting Structured Homepage 1.png" alt="Card sort of the restructured National Parks Service redesign">
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Prototyping">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <h2 class="display-6 text-center  my-5">Prototyping</h1>
+          <h3 class="display-8 my-4">Wireframes</h3>
+        <p class="my-2">The layout of the low-fidelity prototype was loyal to the existing National Park Service site, with a blocky black and white explore dropdown menu, with the main changes being to simplifying the top navigation and adding a carousel for the Featured Stories. Horizontal bars were used to highlight special features like National Park of the Month and the National Park Foundation, but the UX team found it didn’t allow for either feature to be highlighted.
+            
+          </p>
+          <div class="row text-center">
+            <div class="col-md-12 col-sm-12">
+              <img class="caseImg my-2" src="../UX_UI_HW_20/images/Module 9 Prototype Gif.gif" style="width: 800px;">
+              <h5 class="my-1"><a class="prototypeLink" href="https://www.figma.com/proto/IgVjh003VX1KGBrPP6FEqH/Module-9-UI-Navigation-Prototype?page-id=&node-id=1-2&starting-point-node-id=1%3A2&t=UXFOQoXlneI2ErDS-1&mode=design" target="_blank">Desktop Prototype</a></h5>
+            </div>
+          </div>
+          
+          <h3 class="display-8 my-3">Style Guide</h3>
+          <p class="my-2">The style inspiration for the new UI was the WPA National Park posters from the 1930s, so colors were picked from the posters and logo, with typography similarly going for a vintage but clean aesthetic. This was chosen to solidify the National Park Service’s branding as exemplifying the classic American Outdoors.
+          </p>
+          <div class="row text-center">
+            <div class="col-md-12 col-sm-12">
+              <img class="caseImg my-2" src="../UX_UI_HW_20/images/Style Tile.png" style="width: 800px;">
+            </div>
+          </div>
+        </div>
+    </section> 
+      
+    <section id="UsabilityTestingFindings">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <h2 class="display-6 text-center my-4">Usability Testing & Findings</h1>
+          <h3 class="display-8 my-3">High Fidelity Prototype</h3>
+        <p class="my-2">Based on initial feedback from the 5 second usability tests, the header menu was made solidly black to avoid any overlap of text when the page has scrolled down. When implementing the style guide, the tan bar was included to highlight special features of the site, such as a National Park of the Month.
+          </p>
+          <div class="row text-center">
+            <div class="col-md-6 col-sm-12">
+              <img class="caseImg" src="../UX_UI_HW_20/images/Module 11 Desktop HiFi Prototype T1.gif" style="height: 500px;">
+              <h5 class="my-1"><a class="prototypeLink" href="https://www.figma.com/proto/DQAvkiwEvtyLAc4aC04vOf/Module-11-NPS-Prototype?page-id=0%3A1&type=design&node-id=1-4&viewport=1029%2C678%2C0.29&t=iqVKztCTiawfD7T3-1&scaling=scale-down&starting-point-node-id=1%3A4&mode=design">Desktop High-Fidelity Prototype</a></h5>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <img class="caseImg" src="../UX_UI_HW_20/images/Module 11 Mobile HiFi Prototype.gif" style="height: 500px;">
+              <h5 class="my-1"><a class="prototypeLink" href="https://www.figma.com/proto/GQz3F1uvmKiPhFlrO5H1L6/Module-11-NPS-Prototype-Mobile?page-id=0%3A1&type=design&node-id=401-173&viewport=3038%2C49%2C1.6&t=GGAjfANSFavpzpu3-1&scaling=scale-down&starting-point-node-id=401%3A173&mode=design" target="_blank">Mobile High-Fidelity Prototype</a></h5>
+            </div>
+          </div>
+          <h3 class="display-8 my-3">Usability Tests & Revisions</h3>
+          <p class="my-2">Based on <a class="hypLink" href="https://drive.google.com/drive/folders/1-z9cXXAmJpGuZyiLm_6M6OdxesjBySvv" target="_blank">6 user tests</a>, the team gained <a class="hypLink" href="https://docs.google.com/document/d/1SHaWpRPh020vGOekva8-uSf_GhrIcT4CE8lkVNul8sk/edit#heading=h.skjrrg43j1jt" target="_blank">insight</a> that it was difficult to tell that the cards could be scrolled with just having one card visible at a time. They also expected the Careers page to be in the footer menu instead of the top navigation. The team made iterations especially to the mobile prototype, adding a peek-a-boo functionality for the cards and moving the Careers page to the footer.
+          </p>
+          
+        </div>
+    </section>
+
+    <section id="InteractivePrototype">
+      <div class="row text-center">
+        <h2 class="display-6 text-center my-5">Interactive Prototype</h1>
+        <div class="col-md-6 col-sm-12 gx-0">
+          <img class="caseImgleft" src="../UX_UI_HW_20/images/Module 12 Desktop HiFi Prototype T1.gif" style="height: 500px;">
+          <h5 class="my-1"><a class="prototypeLink left" href="https://www.figma.com/proto/QzIKc7hrNDSG05GfcktyUz/Module-12-Revision-Desktop?page-id=0%3A1&type=design&node-id=1-4&viewport=2595%2C561%2C1.13&t=pABGd2gbpnh7XkZ5-1&scaling=scale-down&starting-point-node-id=1%3A4&mode=design" target="_blank">Desktop Final Prototype</a></h5>
+        </div>
+        <div class="col-md-6 col-sm-12 gx-0">
+          <img class="caseImgright" src="../UX_UI_HW_20/images/Module 12 Mobile HiFi Prototype.gif" style="height: 500px;">
+          <h5 class="my-1"><a class="prototypeLink right" href="https://www.figma.com/proto/BDgR4BHQm6P9Il2M6q6DlL/Module-12-Revision-Mobile?page-id=0%3A1&node-id=401-173&starting-point-node-id=401%3A173&t=ANDqjCAvPkLM0ZGi-1&mode=design" target="_blank">Mobile Final Prototype</a></h5>
+        </div>
+      </div>
+    </section>
+
+    <section id="FullCaseStudy">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <h2 class="display-6 text-center my-4">Full Case Study</h1>
+        <p class="my-2">The team completed a full case study to show the design process and share more about some of the challenges it overcame, which can be found here.
+          
+          </p>
+          <div class="row text-center">
+            <div class="col-md-12 col-sm-12">
+              <a class="btn btn-primary my-5" href="#" role="button">Read NPS Case Study</a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
